@@ -12,9 +12,13 @@ $tertiary: #22b0db;
 
 // global
 body {
-  font-family: "Nunito", sans-serif;
-  color: $dark;
-  margin: 0;
+	font-family: "Nunito", sans-serif;
+	color: $dark;
+	margin: 0;
+	background: rgba(50, 126, 202, 1.0);
+background: -webkit-linear-gradient(top left, rgba(50, 126, 202, 1.0), rgba(207, 99, 107, 1.0));
+background: -moz-linear-gradient(top left, rgba(50, 126, 202, 1.0), rgba(207, 99, 107, 1.0));
+background: linear-gradient(to bottom right, rgba(50, 126, 202, 1.0), rgba(207, 99, 107, 1.0));
 }
 
 * {
@@ -22,6 +26,7 @@ body {
 }
 
 .container {
+
   position: relative;
   max-width: 800px;
   margin: 0 auto;
